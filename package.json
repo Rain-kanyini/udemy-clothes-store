@@ -1,12 +1,24 @@
 {
   "name": "sass-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "The second project for the SASS udemy course",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -o css scss/main.scss -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "gregg",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gregg-Hendrix/udemy-clothes-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gregg-Hendrix/udemy-clothes-store/issues"
+  },
+  "homepage": "https://github.com/Gregg-Hendrix/udemy-clothes-store#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
