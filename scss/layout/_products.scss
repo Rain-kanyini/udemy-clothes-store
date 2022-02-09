@@ -76,3 +76,6 @@
     }
 }
 
+.products-btn {
+    @include flexPosition;
+}
